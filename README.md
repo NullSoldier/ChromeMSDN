@@ -1,4 +1,3 @@
-ChromeMSDN
-==========
+This is a Google Chrome extension used to hide all inherited members of a class while viewing documentation in MSDN. When clicked, it will toggle the visibility of all inherited members. In the screenshot in resources, you can see that many of the items in the "Properties" section are inherited. Once we activate the extension, only the items that are actually declared by the Button class are left.
 
-Hides inherited members when looking at an MSDN page.
+Filtering of inherited members is not automatic. You manually active the MSDN+ icon in your chrome extensions tray in the top right. To make inherited members visible again, you can just click the MSDN+ icon a second time.
